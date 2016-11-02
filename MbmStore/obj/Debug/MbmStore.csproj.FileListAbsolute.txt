@@ -131,6 +131,5 @@ E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Webpages.Razor.xml
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Helpers.xml
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Mvc.xml
-E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.csprojResolveAssemblyReference.cache
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.dll
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.pdb

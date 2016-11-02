@@ -1,16 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace MbmStore.Models
 {
     public class OrderItem
     {
-        public int OrderItemId;
-        public int ProductId;
-        public Product Product;
-        public int Quantity;
+        [Key]
+        public int OrderItemId { get; set; }
+
+        public int ProductId { get; set; }
+
+        public Product Product { get; set; }
+
+        public int Quantity { get; set; }
         public decimal TotalPrice { get { return Quantity * Product.Price; } }
 
         public OrderItem(Product product, int quantity)
@@ -19,8 +20,8 @@ namespace MbmStore.Models
             Quantity = quantity;
         }
 
-		public OrderItem() {}
-		 
+        public OrderItem() { }
+
         public OrderItem(int orderItemID, Product product, int quantity)
         {
             OrderItemId = orderItemID;
