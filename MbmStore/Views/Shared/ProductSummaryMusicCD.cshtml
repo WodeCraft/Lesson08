@@ -1,4 +1,5 @@
-﻿@model MbmStore.Models.MusicCD
+﻿@using MbmStore.Models;
+@model MbmStore.Models.MusicCD
 
 <div class="row">
     <div class="col-md-2">
@@ -22,4 +23,23 @@
             <input type="submit" class="btn btn-success" value="Add to cart" />
         }
     </div>
+
+    <div class="col-md-11">
+        <strong>Tracks:</strong>
+        <ul style="list-style:decimal; list-style-position:inside;">
+            @foreach (Track track in Model.Tracks)
+            {
+                <li>@track.Title (@track.Composer) @track.Length.Minutes:@track.Length.Seconds.ToString("00")</li>
+            }
+        </ul>
+        @if (Model.GetPlayingTime().Hours > 0)
+        {
+            <strong>Total playing time:</strong> @Model.GetPlayingTime().ToString(@"hh\:mm\:ss")
+        }
+        else
+        {
+            <strong>Total playing time:</strong> @Model.GetPlayingTime().ToString(@"mm\:ss");
+        }
+    </div>
+
 </div>

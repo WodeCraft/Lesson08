@@ -15,7 +15,7 @@ namespace MbmStore.Models
         public string Label { get; set; }
         public short Released { get; set; }
 
-        public List<Track> Tracks
+        public virtual List<Track> Tracks
         {
             get { return tracks; }
             set { tracks = value; }

@@ -1,10 +1,11 @@
 ﻿using MbmStore.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 
 namespace MbmStore.DAL
 {
-    public class MbmStoreInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<MbmStoreContext>
+    public class MbmStoreInitializer : DropCreateDatabaseAlways<MbmStoreContext>
     {
         protected override void Seed(MbmStoreContext context)
         {
