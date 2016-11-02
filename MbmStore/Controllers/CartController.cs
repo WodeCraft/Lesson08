@@ -1,4 +1,4 @@
-﻿using MbmStore.Infrastructure;
+﻿using MbmStore.DAL;
 using MbmStore.Models;
 using MbmStore.ViewModels;
 using System.Linq;
@@ -8,13 +8,13 @@ namespace MbmStore.Controllers
 {
     public class CartController : Controller
     {
-        private Repository repository;
+        private MbmStoreContext db;
 
         // constructor
         // instantiale a new repository object
         public CartController()
         {
-            repository = new Repository();
+            db = new MbmStoreContext();
         }
 
 
@@ -30,20 +30,20 @@ namespace MbmStore.Controllers
 
         public RedirectToRouteResult AddToCart(Cart cart, int productId, string returnUrl)
         {
-            Product product = repository.Products.FirstOrDefault(p => p.ProductId == productId);
+            Product product = db.Products.FirstOrDefault(p => p.ProductId == productId);
 
             if (product != null)
             {
                 cart.AddItem(product, 1);
             }
 
-            return RedirectToAction("Index", new { controller=returnUrl.Substring(1) });
+            return RedirectToAction("Index", new { controller = returnUrl.Substring(1) });
         }
 
-       
+
         public RedirectToRouteResult RemoveFromCart(Cart cart, int productId, string returnUrl)
         {
-            Product product = repository.Products
+            Product product = db.Products
             .FirstOrDefault(p => p.ProductId == productId);
 
             if (product != null)

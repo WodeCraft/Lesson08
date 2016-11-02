@@ -135,7 +135,6 @@
     <Compile Include="HtmlHelpers\ListTracksHelpers.cs" />
     <Compile Include="HtmlHelpers\PagingHelpers.cs" />
     <Compile Include="Infrastructure\Binders\CartModelBinder.cs" />
-    <Compile Include="Infrastructure\Repository.cs" />
     <Compile Include="Models\Phone.cs" />
     <Compile Include="Models\ShippingDetails.cs" />
     <Compile Include="ViewModels\Cart.cs" />
