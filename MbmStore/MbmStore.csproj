@@ -127,6 +127,8 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InvoiceController.cs" />
     <Compile Include="Controllers\NavController.cs" />
+    <Compile Include="DAL\MbmStoreContext.cs" />
+    <Compile Include="DAL\MbmStoreInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

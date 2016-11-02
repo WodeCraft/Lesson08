@@ -11,6 +11,8 @@ namespace MbmStore.Models
         private decimal totalPrice;
         private List<OrderItem> orderItems = new List<OrderItem>();
 
+        public int CustomerId { get; set; }
+
         public int InvoiceId { get; set; }
         [Column(TypeName = "datetime2")]
         public DateTime OrderDate { get; set; }
