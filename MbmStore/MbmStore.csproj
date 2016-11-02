@@ -136,7 +136,6 @@
     <Compile Include="Infrastructure\Repository.cs" />
     <Compile Include="Models\Phone.cs" />
     <Compile Include="Models\ShippingDetails.cs" />
-    <Compile Include="Models\ShippingDetails.cs" />
     <Compile Include="ViewModels\Cart.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Customer.cs" />

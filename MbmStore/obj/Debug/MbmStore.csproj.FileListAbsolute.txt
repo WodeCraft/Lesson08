@@ -97,9 +97,6 @@ C:\Users\jear\Google Drive\Documents-jear\eaaa-it\2016e\backend\projects\exercis
 C:\Users\jear\Google Drive\Documents-jear\eaaa-it\2016e\backend\projects\exercises\Lesson08_MbmStore_startup\MbmStore\obj\Debug\MbmStore.csprojResolveAssemblyReference.cache
 C:\Users\jear\Google Drive\Documents-jear\eaaa-it\2016e\backend\projects\exercises\Lesson08_MbmStore_startup\MbmStore\obj\Debug\MbmStore.dll
 C:\Users\jear\Google Drive\Documents-jear\eaaa-it\2016e\backend\projects\exercises\Lesson08_MbmStore_startup\MbmStore\obj\Debug\MbmStore.pdb
-E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.csprojResolveAssemblyReference.cache
-E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.dll
-E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.pdb
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\roslyn\csc.exe
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -115,6 +112,8 @@ E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\MbmStore.dll.config
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\MbmStore.dll
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\MbmStore.pdb
+E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\EntityFramework.dll
+E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\EntityFramework.SqlServer.dll
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\Microsoft.Web.Infrastructure.dll
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Helpers.dll
@@ -123,6 +122,8 @@ E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Webpages.Deployment.dll
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Webpages.dll
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Webpages.Razor.dll
+E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\EntityFramework.xml
+E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\EntityFramework.SqlServer.xml
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Razor.xml
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Webpages.xml
@@ -130,3 +131,6 @@ E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Webpages.Razor.xml
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Helpers.xml
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\System.Web.Mvc.xml
+E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.dll
+E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.pdb
