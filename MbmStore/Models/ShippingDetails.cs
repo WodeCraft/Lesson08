@@ -1,4 +1,4 @@
-﻿namespace MbmStore.ViewModels
+﻿namespace MbmStore.Models
 {
     public class ShippingDetails
     {
