@@ -134,3 +134,40 @@ E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\bin\
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.dll
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.pdb
 E:\Visual Studio Projects\Diplom - JCR\Backend\Exercises\Lesson 08\MbmStore\obj\Debug\MbmStore.csprojResolveAssemblyReference.cache
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\csc.exe
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\System.Collections.Immutable.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\vbc.exe
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\VBCSCompiler.exe
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\roslyn\VBCSCompiler.exe.config
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\MbmStore.dll.config
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\MbmStore.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\MbmStore.pdb
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\EntityFramework.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\EntityFramework.SqlServer.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Helpers.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Mvc.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Razor.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Webpages.Deployment.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Webpages.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Webpages.Razor.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\EntityFramework.xml
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\EntityFramework.SqlServer.xml
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Razor.xml
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Webpages.xml
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Webpages.Deployment.xml
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Webpages.Razor.xml
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Helpers.xml
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\bin\System.Web.Mvc.xml
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\obj\Debug\MbmStore.csprojResolveAssemblyReference.cache
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\obj\Debug\MbmStore.dll
+E:\Dev Projects\Diplom\Backend\Lesson 8\MbmStore\obj\Debug\MbmStore.pdb
