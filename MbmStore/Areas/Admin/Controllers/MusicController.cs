@@ -1,5 +1,6 @@
 ﻿using MbmStore.DAL;
 using MbmStore.Models;
+using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
@@ -43,13 +44,21 @@ namespace MbmStore.Areas.Admin.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ProductId,Title,Price,ImageUrl,Category,Artist,Label,Released")] MusicCD musicCD)
+        public ActionResult Create([Bind(Include = "Title, Price, ImageUrl, Category, Artist, Label, Released")] MusicCD musicCD)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.MusicCDs.Add(musicCD);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    db.MusicCDs.Add(musicCD);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+            }
+            catch (DataException /* dex */)
+            {
+                // Log the error (uncomment dex variable name and add a line here to write a log.)
+                ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists see your system administrator.");
             }
 
             return View(musicCD);
@@ -75,24 +84,39 @@ namespace MbmStore.Areas.Admin.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ProductId,Title,Price,ImageUrl,Category,Artist,Label,Released")] MusicCD musicCD)
+        public ActionResult Edit([Bind(Include = "ProductId, Title, Price, ImageUrl, Category, Artist, Label, Released")] MusicCD musicCD)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Entry(musicCD).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    db.Entry(musicCD).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
             }
+            catch (DataException /* dex */)
+            {
+                // Log the error (uncomment dex variable name and add a line here to write a log.)
+                ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists see your system administrator.");
+            }
+
             return View(musicCD);
         }
 
         // GET: Admin/Music/Delete/5
-        public ActionResult Delete(int? id)
+        public ActionResult Delete(int? id, bool? saveChangesError = false)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
+            if (saveChangesError.GetValueOrDefault())
+            {
+                ViewBag.ErrorMessage = "Delete failed. Try again, and if the problem persists see your administrator.";
+            }
+
             MusicCD musicCD = db.MusicCDs.Find(id);
             if (musicCD == null)
             {
@@ -104,11 +128,23 @@ namespace MbmStore.Areas.Admin.Controllers
         // POST: Admin/Music/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public ActionResult Delete(int id)
         {
-            MusicCD musicCD = db.MusicCDs.Find(id);
-            db.MusicCDs.Remove(musicCD);
-            db.SaveChanges();
+            try
+            {
+                MusicCD musicCD = db.MusicCDs.Find(id);
+                db.MusicCDs.Remove(musicCD);
+                // Alternative to the lines above. A performance improvement
+                //MusicCD MusicCDToDelete = new MusicCD() { ProductId = id };
+                //db.Entry(MusicCDToDelete).State = EntityState.Deleted;
+                db.SaveChanges();
+            }
+            catch (DataException /* dex */ )
+            {
+                // Log the error (uncomment dex variable name and add a line here to write a log.)
+                return RedirectToAction("Delete", new { id = id, saveChangesError = true });
+            }
+
             return RedirectToAction("Index");
         }
 
